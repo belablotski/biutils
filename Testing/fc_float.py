@@ -36,7 +36,7 @@ def compare_lines_with_float_numbers(line1, line2):
     #print line_to_float(line2)
     f1 = line_to_float(line1)
     f2 = line_to_float(line2) 
-    assert len(f1) == len(f2), "Lines has different length %s and %s" % (f1, f2)
+    assert len(f1) == len(f2), "Lines have different length %s and %s" % (f1, f2)
     cmp = [cmp_nullable_float(f1[i], f2[i]) for i in range(len(f1))]
     return [i for i in range(len(cmp)) if not cmp[i]]
 
