@@ -1,0 +1,10 @@
+#summary Business Intelligence Utils main wiki page (index)
+
+= Business Intelligence Utils =
+
+Content of biutils package.
+
+
+= biutils =
+== Testing ==
+  * [fc_float] - compare files with float (imprecise) numbers
