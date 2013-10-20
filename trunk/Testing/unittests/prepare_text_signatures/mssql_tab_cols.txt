@@ -1,0 +1,38 @@
+CRDN_SRC	dbo	BenBase	BbAccrualMethod	28		YES	varchar	30	30							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbAdvanced	33		YES	varchar	1	1							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbArchive	17		YES	varchar	1	1							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbBeneficiaryFlag	27		YES	varchar	2	2							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbBillMthd	25		YES	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbCode	32		YES	text	2147483647	2147483647							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbCRC	4		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbDateAdd	8		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateBeg	11		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateDel	10		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateEnd	12		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateMod	9		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateRBeg	13		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDateREnd	14		YES	datetime						3									
+CRDN_SRC	dbo	BenBase	BbDepCovFlag	29		YES	varchar	2	2							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbDescrip	19		YES	varchar	30	30							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbDfltTier	37		YES	varchar	8	8							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbElectionSet	34		NO	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbEquivGroup	35		NO	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbFlxID	7		NO	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbFlxIDBe	2		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbFlxIDCf	3		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbGroup	18		YES	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbInfo1	26		YES	varchar	30	30							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbKind	22		YES	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbMagic	1		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbNote	6		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbPerPayDivisor	30		YES	float			53	2											
+CRDN_SRC	dbo	BenBase	BbPrintDescrip	20		YES	varchar	30	30							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbProperties	36		YES	varchar	20	20							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbRecType	16		YES	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbSource	5		YES	int			10	10	0										
+CRDN_SRC	dbo	BenBase	BbTax	23		YES	varchar	1	1							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbTier	24		NO	varchar	1	1							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbType	21		NO	varchar	4	4							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbUpsize_ts	38		YES	timestamp															
+CRDN_SRC	dbo	BenBase	BbUserName	15		YES	varchar	20	20							iso_1			SQL_Latin1_General_CP1_CI_AS			
+CRDN_SRC	dbo	BenBase	BbWizard	31		YES	text	2147483647	2147483647							iso_1			SQL_Latin1_General_CP1_CI_AS			
