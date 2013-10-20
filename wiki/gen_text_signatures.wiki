@@ -3,7 +3,11 @@
 = Introduction =
 Parse Oracle and Microsoft SQL Server columns metadata and generate queries for calculating text signatures.
 
+To generate record signature all fields are converted to strings and concatenated. Float fields are excluded, because they are imprecise. There is additional query is generated for floats - after that files should be compared with [fc_float] utility.
+
 Typically there signatures are used for testing purposes to compate Source and Target data.
+
+It's good idea to use hash instead of long strings, but in Oracle you should have right to execute function from sys.dbms_obfuscation_toolkit. In this case in't possible to use HASHBYTES in SQL Server. Unfortunately Oracle's STANDARD_HASH is in 12c only and ORA_HASH doesn't have equivalent in SQL Server.
 
 = Demo =
 
