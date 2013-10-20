@@ -8,3 +8,4 @@ Content of biutils package.
 = biutils =
 == Testing ==
   * [fc_float] - compare files with float (imprecise) numbers
+  * [gen_text_signatures] - generate text signatures for DB records to compare they as text files (with fc or WinMerge)
