@@ -1,0 +1,3 @@
+set nocount on;
+
+SELECT ...
