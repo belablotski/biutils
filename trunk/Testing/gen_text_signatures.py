@@ -382,10 +382,10 @@ class OracleMetadataAnalyzer(object):
         return "\r\n".join(result)
 
 
-sqlservanalyzer = SqlServerMetadataAnalyzer("unittests/prepare_text_signatures/mssql_tab_cols.txt")
+sqlservanalyzer = SqlServerMetadataAnalyzer("unittests/gen_text_signatures/mssql_tab_cols.txt")
 print "Microsoft SQL Server Tables: %s\r\n" % (", ".join(["%s.%s.%s" % tuple(x) for x in sqlservanalyzer.get_table_list()]))
 print sqlservanalyzer.gen_text_signature_query(concat_cols =  True, concat_cols_row_number_sort = True, add_row_number = False)
 
-oracleanalyzer = OracleMetadataAnalyzer("unittests/prepare_text_signatures/oracle_tab_cols.txt")
+oracleanalyzer = OracleMetadataAnalyzer("unittests/gen_text_signatures/oracle_tab_cols.txt")
 print "ORACLE Tables: %s\r\n" % (", ".join(["%s.%s" % tuple(x) for x in oracleanalyzer.get_table_list()]))
 print oracleanalyzer.gen_text_signature_query(concat_cols =  True, concat_cols_row_number_sort = True, add_row_number = False)
