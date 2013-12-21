@@ -6,6 +6,17 @@ Content of biutils package.
 
 
 = biutils =
+== Bin ==
+  * Windows binaries for the most useful utilities
 == Testing ==
   * [fc_float] - compare files with float (imprecise) numbers
   * [gen_text_signatures] - generate text signatures for DB records to compare they as text files (with fc or WinMerge)
+== Helpers ==
+=== BODS ===
+  * [sql_to_bods] - convert SQL script into SAP BODS script
+=== Files ===
+  * [process_files] - generic script to process text files
+  * [split_large_file] - split large files
+=== SQL ===
+  * [extract_columns_names] - simple regex to extract columns names
+  * [extract_tables_names] - simple regex to extract tables names
