@@ -86,4 +86,7 @@ if len(sys.argv) != 3:
     print "Current FLOAT_MAX_PRECISION_DIGITS = %d\r\n" % FLOAT_MAX_PRECISION_DIGITS
     print "There is wrong number of command line arguments."
 else:
-    compare_files_with_float_numbers(sys.argv[1], sys.argv[2]) and exit(0) or exit(1)
+    if compare_files_with_float_numbers(sys.argv[1], sys.argv[2]):
+        exit(0)
+    else:
+        exit(1)
