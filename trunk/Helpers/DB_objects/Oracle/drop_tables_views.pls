@@ -1,6 +1,6 @@
 -- Drop all tables/views in schema.
 declare 
-  c_perform_ddl constant boolean := not False;              -- Perform DDL or just print it
+  c_perform_ddl constant boolean := False;              -- Perform DDL or just print it
   c_process_tables constant varchar2(5) := 'False';     -- Drop tables (True/False)
   c_process_views constant varchar2(5) := 'True';       -- Drop views (True/False)
   s varchar2(4000);
