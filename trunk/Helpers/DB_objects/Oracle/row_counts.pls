@@ -13,6 +13,7 @@ begin
     end if;
     l_sql := l_sql || 'select ''' || l_tab_name || ''' as tbl_name, count(1) as row_cnt from ' || l_tab_name;
   end loop;
+  l_sql := l_sql || ' order by 1';
   dbms_output.put_line(l_sql);
   open :h_rc for l_sql;
 end;
